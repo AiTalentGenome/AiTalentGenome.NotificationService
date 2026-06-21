@@ -9,7 +9,9 @@
 
     <ItemGroup>
         <PackageReference Include="AiTalentGenome.Contracts" Version="1.0.25" />
+        <PackageReference Include="Grpc.Core" Version="2.46.6" />
         <PackageReference Include="Grpc.Net.Client" Version="2.80.0" />
+        <PackageReference Include="Grpc.Net.ClientFactory" Version="2.80.0" />
         <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.8" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.7"/>
     </ItemGroup>
